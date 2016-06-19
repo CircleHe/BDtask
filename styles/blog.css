@@ -1,0 +1,193 @@
+*{margin: 0px;padding: 0px;}
+body{
+	font-family: 'Microsoft YaHei';
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/*头部&尾部*/
+body>header,body>footer{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(51,51,51);
+}
+body>header>span{
+	float: left;
+	width: 120px;
+	max-height:50px;
+	padding: 5px 20px;
+	/*img 80px 40px*/
+}
+.header-nav{
+	float: right;
+	display: inline-block;
+	list-style: disc;
+}
+.header-nav li{
+	float: left;
+	margin-right: 25px;
+
+}
+.header-nav li a{
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+	line-height: 50px;
+}
+.link4 a{
+	color: #999;
+}
+
+footer>div{
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	width: 100px;
+	margin:0 auto;
+}
+
+/*主体*/
+/*******侧栏*******/
+body{
+	background-color: rgb(222,222,222);
+}
+aside , article{
+	background-color: #fff;
+	border: 1px solid #eee;
+	box-shadow: 1px 1px 1px #999;
+	padding: 15px;
+}
+aside{
+	float: right;
+	width: 300px;
+	
+}
+aside>h3{
+	border-left: 4px solid rgb(222,222,222);
+	padding: 8px;
+}
+aside table{
+	padding: 10px;
+}
+aside table tr>:first-child{
+	text-align: right;
+	padding: 5px;
+}
+aside form{
+	width: 100%;
+}
+.submit{
+	width: 100%;
+	height: 30px;
+	background-color: rgb(63,66,211);
+	border:1px solid rgb(208,212,226);
+	border-radius: 15px;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+}
+
+/*******内容*******/
+article{
+	margin: 15px 340px 15px 15px;
+}
+article h2{
+	margin: 10px 0;
+}
+article header h3,.author-time{
+	line-height: 20px;
+	color: #999;
+}
+
+article>img{
+	margin: 10px 0px;
+	width: 30%;
+	height: 30%;
+}
+
+article>ul{
+	list-style: none;
+	padding-left: 10px;
+}
+
+.pics{
+	border: 1px solid #999;
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.pics p{
+	padding:5px 0; 
+}
+.pics>img{
+	width: 80%;
+	height: 70%;
+}
+
+article>ol{
+	padding: 10px 30px;
+}
+table{
+	width: 100%;
+	margin:0 auto;
+	border-color: #ccc;
+	text-align: left;
+	border-collapse:collapse;
+
+}
+thead{
+	font-weight: bold;
+	background-color: rgb(51,51,51);
+	color: #fff;
+}
+tfoot{
+	background-color: #ccc;
+}
+th,td{
+	padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
