@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>flex布局</title>
+	<style type="text/css">
+	    *{
+	    	padding: 20px;
+	    }
+	    .flex,
+	    .flex > div{
+	    	box-sizing: border-box;
+	    }
+		.flex{
+			border: 1px solid #999;
+			-webkit-display: flex;
+			-ms-display: flex;
+			display: flex;
+			-webkit-justify-content: space-between;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-flex: none;
+			-ms-flex: none;
+			flex: none;
+		}
+		.flex > div{
+			width: 150px;
+			border: 1px solid #f00;
+		}
+		.flex-item1{
+			height: 120px;
+	    }
+	    .flex-item2{
+	    	height: 100px;
+	    }
+	    .flex-item3{
+	    	height: 40px;
+	    }
+	    .flex-item4{
+	    	height: 200px;
+	    	border: 1px solid #00f!important;
+	    }
+	    @media all and (max-width: 640px){
+	    	.flex-item4{
+	    		-webkit-order: -1;
+	    		-ms-flex-order:-1;
+	    		order: -1;
+	    		margin-bottom: 20px;
+	    	}
+	    	.flex{
+	    		-webkit-flex-wrap: wrap;
+	    		-ms-flex-wrap: wrap;
+	    		flex-wrap: wrap;
+	    		-webkit-align-items: flex-start;
+	    		-ms-flex-align: start;
+	    		align-items: flex-start;
+	    	}
+	    }
+	</style>
+</head>
+<body>
+<div class="flex">
+	<div class="flex-item1">1</div>
+	<div class="flex-item2">2</div>
+	<div class="flex-item3">3</div>
+	<div class="flex-item4">4</div>
+</div>
+</body>
+</html>
