@@ -1,28 +1,28 @@
 /*----------初始化样式-----------*/
 *{
-         margin:0px;
-		 padding:0px;
+    margin:0px;
+    padding:0px;
  }
 /*----------页面样式-----------*/
 .wrap{
-         box-sizing:border-box;
-		 width:100%;
-		 padding:10px;
+    box-sizing:border-box;
+    width:100%;
+    padding:10px;
 }
 .wrap:before, .wrap:after{
-         content:"";
-		 display:table;
-		 clear:both;
+    content:"";
+		display:table;
+		clear:both;
 }
 [class*="col-"]{
-         box-sizing:border-box;
-		 float:left;
-		 padding:10px;
+    box-sizing:border-box;
+		float:left;
+		padding:10px;
 }
 .inner{
-         height:50px;
-		 background-color:#eee;
-		 border:1px solid #999;
+    height:50px;
+		background-color:#eee;
+		border:1px solid #999;
 }
 
 @media (max-width: 768px) {
